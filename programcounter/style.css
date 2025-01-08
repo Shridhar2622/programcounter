@@ -1,0 +1,61 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #040716;
+
+    
+}
+
+#counter
+{
+ display: block;
+ text-align: center;
+ font-size: 10em;
+ font-family: helvetica;
+ color: #5AC8FA;
+ text-shadow: 0 0 5px rgba(90, 200, 250, 0.8),
+                 0 0 10px rgba(90, 200, 250, 0.6),
+                 0 0 15px rgba(0, 255, 255, 0.4);
+
+
+}
+#buttoncont
+{
+    text-align: center;
+
+}
+.buttons
+{
+    padding: 10px 40px;
+    font-size: 1.5em;
+    color: azure;
+    background-color: hsl(214,100%,74%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px aqua,0 0 10px aqua inset;
+    cursor: pointer;
+    transition: background-color .25s;
+   
+}
+.buttons:hover
+{
+    animation: smooth .4s ease alternate infinite;
+    
+    background-color: hsl(214,100%,56%);
+}
+@keyframes smooth {
+    from{
+    
+    }
+    to
+    {
+        transform: scale(1.01);
+    }
+}
+
+
